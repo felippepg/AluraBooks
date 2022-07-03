@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>AluraBooks</title>
 </head>
@@ -48,6 +49,131 @@
         </div>
     </header>
 
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento</p>
+        <input type="search" class="banner__search" placeholder="Qual será a sua próxima leitura">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./images/ApacheKafka.svg" alt="Apache Kafka e Spring Boot">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Nodejs.svg" alt="Nodejs">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Guia Front-end.svg" alt="Guia Front end">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Construct2.svg" alt="Construct 2">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/UX.svg" alt="UX">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3>Talvez você também se interesse por...</h3>
+                    <h2 class="card__titulo">Angular 11 e Firebase</h2>
+                    <p class="card__texto">Construindo uma aplicação integrada com a plataforma do Google</p>
+                </div>
+                <img src="images/Angular.svg" alt="Angular com Firebase">
+            </div>
+
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <img src="./images/Favoritos.svg" alt="Favoritos">
+                    </li>
+                    <li class="botoes__item">
+                        <img src="./images/Compras.svg" alt="Compras">
+                    </li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mais__vendidos">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./images/ApacheKafka.svg" alt="Apache Kafka e Spring Boot">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Nodejs.svg" alt="Nodejs">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Guia Front-end.svg" alt="Guia Front end">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Construct2.svg" alt="Construct 2">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/UX.svg" alt="UX">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3>Autora do Mês</h3>
+                    <h2 class="card__titulo">Juliana Agarikov</h2>
+                    <p class="card__texto">
+                        Analista de sistemas e escritora, Juliana é especialista em Front-end
+                    </p>
+                </div>
+                <img src="images/Perfil-escritora 1.svg" alt="Juliana Agarikov">
+            </div>
+
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <img src="./images/Favoritos.svg" alt="Favoritos">
+                    </li>
+                    <li class="botoes__item">
+                        <img src="./images/Compras.svg" alt="Compras">
+                    </li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js" />
 </body>
 
