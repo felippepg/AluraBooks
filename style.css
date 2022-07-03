@@ -1,0 +1,29 @@
+@import url(styles/header.css);
+
+:root {
+    --background-color: #EBECEE;
+    --branco: #FFFFFF;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --laranja: #EB9B00;
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@-webkit-keyframes animate-div {
+    from {
+        opacity: 0;
+        margin-top: -150px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}

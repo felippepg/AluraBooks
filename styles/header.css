@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+    align-items: center;
+    position: relative;
+}
+
+.container__image {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-degrade);
+}
+
+.lista__menu {
+    position: absolute;
+    top: 100%;
+    padding: 1rem;
+    background-color: var(--branco);
+    width: 60%;
+    display: none;
+    -webkit-animation: animate-div 1s;
+}
+
+.lista__menu-item,
+.lista__menu-titulo {
+    padding: 1rem;
+}
+
+.lista__menu,
+a {
+    text-decoration: none;
+    color: var(--azul-degrade)
+}
+
+ul li .active {
+    color: var(--laranja);
+    font-weight: bold;
+}
