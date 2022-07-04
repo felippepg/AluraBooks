@@ -2,6 +2,8 @@
 @import url(styles/banner.css);
 @import url(styles/carrossel.css);
 @import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/ropade.css);
 
 :root {
     --background-color: #EBECEE;
@@ -9,6 +11,7 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --laranja: #EB9B00;
     --fonte-principal: 'Poppins', sans-serif;
+    --azul: #002F52;
 }
 
 
@@ -20,6 +23,18 @@ body {
 }
 
 @-webkit-keyframes animate-div {
+    from {
+        opacity: 0;
+        margin-top: -150px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+@keyframes animate-div {
     from {
         opacity: 0;
         margin-top: -150px;

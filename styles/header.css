@@ -8,6 +8,7 @@ header {
 
 .container__image {
     padding: 1rem;
+    cursor: pointer;
 }
 
 .container {
@@ -24,6 +25,8 @@ header {
     width: 60%;
     display: none;
     -webkit-animation: animate-div 1s;
+    animation: animate-div 1s;
+
 }
 
 .lista__menu-item,
