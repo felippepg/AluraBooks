@@ -68,7 +68,7 @@ ul li .active {
 
 @media (min-width: 1024px) {
     .container {
-        padding: 0 3em;
+        padding: 0 2em;
     }
 
     .container__titulo {
@@ -90,6 +90,8 @@ ul li .active {
 
     .opcoes {
         display: flex;
+        align-items: center;
+        cursor: pointer;
     }
 
     .opcoes-item {

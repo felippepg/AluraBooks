@@ -40,3 +40,28 @@
     background-repeat: no-repeat;
     background-position: 1em;
 }
+
+@media (min-width: 1024px) {
+    .banner {
+        padding: 7em 9em;
+    }
+
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__texto {
+        padding: 0 0.2em;
+    }
+
+    .banner__search {
+        font-size: 16px;
+        width: 60%;
+        padding: 1em 3em;
+    }
+
+    .banner__search::placeholder {
+        font-size: 16px;
+        background-position: 1.5em;
+    }
+}

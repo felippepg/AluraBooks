@@ -74,6 +74,11 @@ const swiper = new Swiper('.swiper', {
         delay: 5000,
     },
 
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets'
