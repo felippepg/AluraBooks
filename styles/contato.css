@@ -71,3 +71,13 @@
         width: 30%;
     }
 }
+
+@media (min-width: 1728px) {
+    .contato {
+        padding: 3.5em 15vw;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+}

@@ -48,3 +48,13 @@
         font-size: 24px;
     }
 }
+
+@media (min-width: 1728px) {
+    .topicos {
+        padding: 3em 20vw;
+    }
+
+    .topicos__titulo {
+        font-size: 32px;
+    }
+}

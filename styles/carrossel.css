@@ -39,6 +39,7 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .card__botoes {
@@ -123,4 +124,37 @@
         padding: 0.8em 1.3em;
         text-align: center;
     }
+}
+
+@media (min-width: 1728px) {
+    .carrossel__conteudo {
+        display: flex;
+        align-items: center;
+        margin: 0 20vw 3em 20vw;
+    }
+
+    .swiper-pagination {
+        margin: 0;
+    }
+
+    .card {
+        padding: 1em;
+        margin: 2em auto;
+        width: 50%;
+        margin-left: 2em;
+    }
+
+    .card__texto {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0 0 0.5em 0;
+
+    }
+
+    .descricao h3 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
 }

@@ -15,9 +15,14 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--azul-degrade);
+    justify-content: space-around;
 }
 
 .container__titulo {
+    display: none;
+}
+
+.container__texto-icone {
     display: none;
 }
 
@@ -27,10 +32,10 @@ header {
     padding: 1rem;
     background-color: var(--branco);
     width: 60%;
+    left: 0;
     display: none;
     -webkit-animation: animate-div 1s;
     animation: animate-div 1s;
-
 }
 
 .lista__menu__container {
@@ -83,7 +88,7 @@ ul li .active {
         font-size: 30px;
     }
 
-    .container__imagem,
+    .favoritos,
     .cabecalho__menu-hamburger {
         display: none;
     }
@@ -115,6 +120,21 @@ ul li .active {
     .active__container {
         background: var(--azul-degrade);
         color: var(--branco);
-        /* padding: 1em; */
+    }
+}
+
+@media (min-width: 1728px) {
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container_item-icone {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__texto-icone {
+        display: block;
     }
 }
