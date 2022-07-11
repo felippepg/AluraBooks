@@ -62,7 +62,8 @@
 
     .banner__search::placeholder {
         font-size: 16px;
-        background-position: 1.5em;
+        background-position: 2.8em;
+        /* background-position: 1.5em; */
     }
 }
 
@@ -76,6 +77,6 @@
 
     .banner__search::placeholder {
         font-size: 16px;
-        background-position: 8em;
+        background-position: 9.2em;
     }
 }
