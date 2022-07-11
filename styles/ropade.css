@@ -63,7 +63,7 @@ footer ul li {
         padding: 5em;
     }
 
-    ul {
+    footer ul {
         border-left: 1px solid var(--cinza-claro);
         padding-left: 1em;
     }
