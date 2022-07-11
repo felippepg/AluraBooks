@@ -1,6 +1,7 @@
 
 ## Descrição do Projeto
-<p align="center">Projeto realizado no curso da Alura sobre Mobile First</p>
+<p align="center">Projeto realizado no curso da Alura sobre Mobile First, link para acessar o projeto</p>
+
 
 ### Pré-requisitos
 
@@ -14,6 +15,8 @@ As seguintes ferramentas foram usadas na construção da Pagina:
 - [HTML]
 - [CSS]
 - [Javascript]
+
+Link para acessar projeto [AluraBooks](https://felippepg.github.io/AluraBooks/) 
 
 
 
