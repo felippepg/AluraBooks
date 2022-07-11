@@ -33,12 +33,12 @@
 .banner__search::placeholder {
     background: transparent;
     color: var(--branco);
-    font-size: 14px;
+    font-size: 12px;
     line-height: 21px;
     text-align: center;
     background-image: url(../images/Vector.svg);
     background-repeat: no-repeat;
-    background-position: 1em;
+    padding-left: 2em;
 }
 
 @media (min-width: 1024px) {
