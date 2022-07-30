@@ -1,6 +1,6 @@
 
 ## Descrição do Projeto
-<p align="center">Projeto realizado no curso da Alura sobre Mobile First, link para acessar o projeto</p>
+<p align="center">Projeto realizado no curso da Alura sobre Mobile First</p>
 
 
 ### Pré-requisitos
